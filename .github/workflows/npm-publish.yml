@@ -2,8 +2,6 @@ name: Node.js CI
 
 on:
   pull_request:
-    types:
-      - opened
     branches:
       - 'master'
 
@@ -16,5 +14,5 @@ jobs:
         with:
           node-version: 15
       - run: npm install
-      - run: npm lint
-      - run: npm prettier
+      - run: npm run lint
+      - run: npm run prettier
