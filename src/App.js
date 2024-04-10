@@ -17,5 +17,4 @@ function App() {
   );
 }
 // It for testing CI
-// Add comment
 export default App;
